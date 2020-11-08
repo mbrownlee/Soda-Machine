@@ -2,7 +2,7 @@
   <div class="sodas column">
     <div v-bind:key="soda.id" v-for="soda in allSodas">
       <button @click="$emit('soda-vend', soda.name)" class="soda-btn"
-        :disabled="machineStates.readyToVend === false"
+        :disabled="machineStates.readyToVend === false || soda.quantity === 0"
         >
         {{ soda.name }} 
       </button>

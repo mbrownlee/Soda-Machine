@@ -2,7 +2,7 @@
 The Eduity soda machine is a coding challenge. The requirements asked for a soda machine built in vue.js that functioned like this diagram:
 ![](./src/assets/diagram.png)
 
-The machine initially only has 1 button available to the user and is in the ready to accept mayment mode. Only the submit payment button is active in this state. 
+The machine initially only has 1 button available to the user and is in the ready to accept payment mode. Only the submit payment button is active in this state. 
 ![](./src/assets/ReadyForPayment.png)
 
 Once the submit payment button is pressed the machine is in ready to vend state. The user can then eject his money and the machine will return to ready to accept payment mode and the soda buttons will again be disabled. Or the user can choose the soda they wish to purchase. 
